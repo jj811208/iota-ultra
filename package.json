@@ -1,0 +1,19 @@
+{
+  "name": "iota-ultra",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "ryan_chu <ryan_chu@gss.com.tw>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "strophe.js": "^1.4.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "pkg index.js"
+  },
+  "devDependencies": {
+    "pkg": "^5.5.2"
+  }
+}
